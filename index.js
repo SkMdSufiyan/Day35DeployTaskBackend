@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
     res.status(200).send("Welcome to the Quotes application");
 })
 
-app.use(quotesRoutes); // Using the quotesRoutes 
+app.use("/api", quotesRoutes); // Using the quotesRoutes 
 
 // Listening to the app
 const PORT = process.env.PORT;
