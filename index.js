@@ -25,5 +25,5 @@ app.use(quotesRoutes); // Using the quotesRoutes
 const PORT = process.env.PORT;
 
 app.listen(PORT, () => {
-    console.log(`The app is running on PORT ${PORT}`)
+    console.log(`The server is running on PORT ${PORT}`)
 });
